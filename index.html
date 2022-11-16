@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./assets/css/styles.css">
   <title>Frontend Mentor | News homepage</title>
 </head>
-<body>
+<body id="content">
+  <div id="active"></div>
   <head class="head">
     <div class="nav container">
       <div class="nav_logo">
@@ -17,7 +18,10 @@
           <img src="./assets/images/logo.svg" alt="logo">
         </a>
       </div>
-      <nav class="navbar navbar-active">
+      <div class="icon_movil">
+        <img src="./assets/images/icon-menu.svg" alt="icon">
+      </div>
+      <nav class="navbar" id="navbar">
         <img class="icon_movil-close" src="./assets/images/icon-menu-close.svg" alt="close">
         <ul class="navbar_links">
           <li class="item"><a href="#" class="item_link">Home</a></li>
@@ -27,9 +31,6 @@
           <li class="item"><a href="#" class="item_link">Categories</a></li>
         </ul>
       </nav>
-      <div class="icon_movil">
-        <img src="./assets/images/icon-menu.svg" alt="icon">
-      </div>
     </div>
   </head>
 
@@ -105,5 +106,6 @@
       Coded by <a href="https://www.linkedin.com/in/antonio-bermudez/" target="_blank">Antonio Bermúdez</a>.
     </div>
   </footer>
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
